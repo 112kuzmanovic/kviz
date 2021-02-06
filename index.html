@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/kviz.css">
+    <title>Kviz</title>
+</head>
+
+<body>
+    <div id="title">KVIZ</div>
+    <div id="question-frame">
+        <div id="question">Koja je najveca planeta suncevog sistema?</div>
+        <div class="answer" id="answer1">Jupiter</div>
+        <div class="answer" id="answer2">Saturn</div>
+        <div class="answer" id="answer3">Neptun</div>
+    </div>
+    <div class="button-frame" id="button-frame">
+        <button class="btn" id="novi-k">Pokreni novi kviz</button>
+        <button class="btn" id="pomoc">Pomoc</button>
+        <button class="btn"  id="novi">Preskoci pitanje</button>
+    </div>
+
+    <div class="error-frame" id="error-frame">
+        <div class="error-title">Žao nam je pogrešno ste odgovorili na pitanje ,
+            pokušajte ponovo!</div>
+        <div class="corect-answer" id="tacno">Tacan odgovor je Jupiter</div>
+        <div class="start" >POKRENI PONOVO KVIZ</div>
+    </div>
+    <div class="end" id="end">
+        <div class="end-text">CESTITAMO</div>
+        <div class="end-button" onclick="ponovo()">POKRENI PONOVO KVIZ</div>
+    </div>
+</body>
+<script src="javascript/kviz.js"></script>
+</html>
